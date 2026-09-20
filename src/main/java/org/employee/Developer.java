@@ -4,7 +4,6 @@ public class Developer extends Employee {
     private String programmingLanguage;
 
     public Developer(String name, Double salary, String programmingLanguage) {
-        System.out.println("Developer Constructor");
         super(name, salary);
         this.programmingLanguage = programmingLanguage;
     }
