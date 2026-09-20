@@ -34,4 +34,19 @@ class ManagerTest {
         Manager manager = new Manager("Jordan", 4000, 7000);
         assertEquals(5000,manager.getManagementAllowance());
     }
+
+    @Test
+    void giveRaise(){
+        Manager manager = new Manager("Jordan", 4000, 7000);
+        manager.increaseSalary(1000.0);
+
+        assertEquals(5000, manager.getSalary());
+    }
+    @Test
+    void giveBadRaise(){
+        Manager manager = new Manager("Jordan", 4000, 7000);
+        manager.increaseSalary(-1000.0);
+
+        assertEquals(3000, manager.getSalary());
+    }
 }

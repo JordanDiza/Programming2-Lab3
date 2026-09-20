@@ -18,7 +18,12 @@ public class Manager extends Employee {
     public double getManagementAllowance() {
         return managementAllowance;
     }
+    /*
     public void giveRaise() {
-        increaseSalary(1000);
+        salary += 1000;
+    }
+     */
+    public void giveRaise(double amount){
+        increaseSalary(amount);
     }
 }
