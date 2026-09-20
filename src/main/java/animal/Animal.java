@@ -1,4 +1,4 @@
-package org.example;
+package animal;
 // Part G
 public class Animal {
     private String name;

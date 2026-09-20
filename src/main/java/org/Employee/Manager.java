@@ -1,4 +1,4 @@
-package org.example;
+package org.Employee;
 // Part B
 
 public class Manager extends Employee {
@@ -6,7 +6,7 @@ public class Manager extends Employee {
 
     public Manager(String name, double salary, double managementAllowance) {
         super(name, salary);
-        System.out.println("Manager Constructor");
+        //System.out.println("Manager Constructor");
         this.managementAllowance = managementAllowance;
     }
 
