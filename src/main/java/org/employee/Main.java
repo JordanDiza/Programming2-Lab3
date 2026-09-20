@@ -12,7 +12,6 @@ public class Main {
         Manager m1 = new Manager("Amanda", 80000, 5000);
         // I think it will print Employee constructor first. Since a manager is an employee.
 
-
         /*
         Manager manager = new Manager(80000);
         manager.giveRaise();
@@ -22,7 +21,6 @@ public class Main {
         */
     }
 }
-
 
 // Part A:
 /*
@@ -50,6 +48,16 @@ If I work overtime my overtime pay cant be a negative number
 // Part F
 /*a protected method is better than a protected field because you can put like a rule on the method that makes it
 so that the value respects a certain rule to keep realism
+ */
+
+// Part G
+// so that no one cange change the name after creating the object
+
+// Part H
+/* Because TestManager lives in a different package than Employee,
+Java's protected rule only gives it access to its own inherited salary.
+It can freely change its own salary (salary = 100000),
+but Java stops it from reaching across package lines to touch another employee object's salary (employee.salary = 100000).
  */
 
 // Part J

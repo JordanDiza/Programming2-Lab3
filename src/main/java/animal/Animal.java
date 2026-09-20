@@ -10,5 +10,3 @@ public class Animal {
         return name;
     }
 }
-
-// so that no one cange change the name after creating the object
