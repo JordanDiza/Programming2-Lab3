@@ -44,5 +44,15 @@ It shouldnt be protected, because anyone can modify the salary to an unrealistic
 4. Yes, because you can but like a limit on how low the salary can be like it has to be more than 0.
  */
 
+// Part E
+/*
+I would chose design 2
+If I work overtime my overtime pay cant be a negative number
+ */
+
+// Part F
+/*a protected method is better than a protected field because you can put like a rule on the method that makes it
+so that the value respects a certain rule to keep realism
+ */
 
 

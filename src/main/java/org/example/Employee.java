@@ -1,15 +1,6 @@
 package org.example;
 // Part B
-class Employee {
 
-    protected double salary;
-
-    public Employee(double salary) {
-        this.salary = salary;
-    }
-}
-
-/*
 public class Employee {
 
     private String name;
@@ -32,6 +23,12 @@ public class Employee {
     public double calculateBonus() {
         return salary * 0.05;
     }
-    */
 
-
+    protected void increaseSalary(double amount) {
+        if (amount <= 0) {
+            throw new Error("Invalid amount");
+        } else {
+            salary = salary + amount;
+        }
+    }
+}
