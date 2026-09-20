@@ -3,15 +3,6 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
-        Manager manager = new Manager(80000);
-        manager.giveRaise();
-
-        System.out.println(manager.salary);
-        manager.breakSalary();
-
-        System.out.println(manager.salary);
-
-        /* System.out.println(manager.salary);
         Manager m = new Manager("John", 80000, 5001);
         System.out.println(m.getName());
         System.out.println(m.getSalary());
@@ -21,11 +12,18 @@ public class Main {
 
         Manager m1 = new Manager("Amanda", 80000, 5000);
         // I think it will print Employee constructor first. Since a manager is an employee.
-        }
-        */
 
+
+        /*
+        Manager manager = new Manager(80000);
+        manager.giveRaise();
+        System.out.println(manager.salary);
+        manager.breakSalary();
+        System.out.println(manager.salary);
+        */
     }
 }
+
 
 // Part A:
 /*
@@ -54,5 +52,6 @@ If I work overtime my overtime pay cant be a negative number
 /*a protected method is better than a protected field because you can put like a rule on the method that makes it
 so that the value respects a certain rule to keep realism
  */
+
 
 
