@@ -1,6 +1,5 @@
-package org.Employee;
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+package org.employee;
+
 public class Main {
     static void main() {
         Manager m = new Manager("John", 80000, 5001);
@@ -53,5 +52,8 @@ If I work overtime my overtime pay cant be a negative number
 so that the value respects a certain rule to keep realism
  */
 
-
+// Part J
+/*
+Every field should be private to keep the values realistic.
+ */
 

@@ -1,4 +1,4 @@
-package org.Employee;
+package org.employee;
 // Part B
 
 public class Employee {
@@ -7,7 +7,7 @@ public class Employee {
     private double salary;
 
     public Employee(String name, double salary) {
-        //System.out.println("Employee Constructor");
+        System.out.println("Employee Constructor");
         this.name = name;
         this.salary = salary;
     }
